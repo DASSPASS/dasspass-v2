@@ -1211,14 +1211,14 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="lg:col-span-2">
-            <button onClick={() => onNavigate("home")} className="flex items-center mb-5">
+            <button onClick={() => onNavigate("home")} className="mb-5 block">
               <Img
                 src={logoWordmark}
                 alt="DassPass"
-                className="h-40 w-auto object-contain brightness-0 invert"
+                className="h-40 w-auto object-contain"
               />
             </button>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-xs" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
+            <p className="text-slate-400 text-sm leading-relaxed max-w-xs mt-3" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
               Building Trust Into Every Decision.
               <br />
               Trust infrastructure & compliance solutions for Africa.
