@@ -359,6 +359,15 @@ function HomePage({ onNavigate }: { onNavigate: (p: Page) => void }) {
                 checks, and compliance solutions through a trusted network of
                 verification and compliance partners.
               </p>
+              
+              <p
+  className="text-sm text-blue-200/70 leading-relaxed mb-10 max-w-xl"
+>
+  We also help identity, fintech, compliance, and trust infrastructure
+  providers successfully enter and scale across East Africa through
+  strategic partnerships, local market expertise, regulatory guidance,
+  and ecosystem engagement.
+</p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
