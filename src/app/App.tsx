@@ -79,12 +79,12 @@ function Nav({
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        <div className="flex items-center justify-between h-[68px]">
+        <div className="flex items-center justify-between h-[110px]">
           <button onClick={() => onNavigate("home")} className="flex items-center">
             <Img
               src={logoHorizontal}
               alt="DassPass"
-              className="h-9 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </button>
 
