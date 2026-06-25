@@ -1152,7 +1152,7 @@ function ContactPage() {
 
               <div className="bg-[#1A1D6F] rounded-2xl p-7 text-white mt-6">
                 <div className="mb-4">
-                  <Img src={logoWordmark} alt="DassPass" className="h-7 w-auto object-contain brightness-0 invert" />
+                  <Img src={logoWordmark} alt="DassPass" className="h-20 w-auto object-contain brightness-0 invert" />
                 </div>
                 <p className="text-xs text-[#14B8A6] font-semibold mb-2" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
                   Building Trust Into Every Decision.
@@ -1213,9 +1213,9 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
           <div className="lg:col-span-2">
             <button onClick={() => onNavigate("home")} className="flex items-center mb-5">
               <Img
-                src={logoHorizontal}
+                src={logoWordmark}
                 alt="DassPass"
-                className="h-8 w-auto object-contain brightness-0 invert"
+                className="h-20 w-auto object-contain brightness-0 invert"
               />
             </button>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
