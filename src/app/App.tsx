@@ -206,7 +206,7 @@ const SERVICES = [
   },
   {
     icon: BookOpen,
-    title: "Compliance Advisory",
+    title: "Compliance & Infrastructure Advisory",
     desc: "Expert guidance on KYC/KYB framework design, vendor selection, and scalable onboarding process architecture.",
     tag: "05",
   },
