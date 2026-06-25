@@ -84,7 +84,7 @@ function Nav({
             <Img
               src={logoHorizontal}
               alt="DassPass"
-              className="h-32 w-auto object-contain"
+              className="h-40 w-auto object-contain"
             />
           </button>
 
