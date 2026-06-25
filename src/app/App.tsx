@@ -1149,7 +1149,7 @@ function ContactPage() {
                   Building Trust Into Every Decision.
                 </p>
                 <p className="text-xs text-blue-200/70 leading-relaxed" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-                  Identity Verification · Business Verification · AML Screening · Background Checks
+                  Identity Verification · Business Verification · AML Screening · Background Checks · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory
                   <br /><br />
                   Trust Infrastructure & Compliance Solutions for Africa
                 </p>
@@ -1245,10 +1245,10 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
         </div>
         <div className="border-t border-white/5 pt-7 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-            © 2025 DassPass. All rights reserved.
+            © 2026 DassPass. All rights reserved.
           </p>
           <p className="text-xs text-slate-600" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-            Identity Verification · Business Verification · AML Screening · Background Checks
+            Identity Verification · Business Verification · AML Screening · Background Checks · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory · Compliance & Infrastructure Advisory
           </p>
         </div>
       </div>
