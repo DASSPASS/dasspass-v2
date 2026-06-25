@@ -374,7 +374,7 @@ function HomePage({ onNavigate }: { onNavigate: (p: Page) => void }) {
                   className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white/10 text-white font-semibold rounded-md hover:bg-white/15 transition-colors text-sm border border-white/20"
                   style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
                 >
-                  Talk to an Expert
+                  Grow Your Reach
                 </button>
               </div>
             </div>
