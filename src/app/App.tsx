@@ -1131,7 +1131,7 @@ function ContactPage() {
               </h3>
               {[
                 { icon: Mail, label: "Email", value: "info@dasspass.com", href: "mailto:info@dasspass.com" },
-                { icon: Phone, label: "Phone", value: "+254 705 886 366", href: "tel:+254700000000" },
+                { icon: Phone, label: "Phone", value: "+254 705 886 366", href: "tel:+254705886366" },
                 { icon: MapPin, label: "Location", value: "Nairobi, Kenya", href: null },
                 { icon: Linkedin, label: "LinkedIn", value: "DassPass", href: "https://www.linkedin.com/company/dasspass1/about/" },
               ].map((c) => (
