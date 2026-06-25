@@ -1086,7 +1086,7 @@ function ContactPage() {
                     </div>
                     <div>
                       <label className="block text-xs font-bold text-[#0F172A] tracking-wide uppercase mb-2" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>Phone</label>
-                      <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }} placeholder="+254 700 000 000" />
+                      <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }} placeholder="+254 705 886 366" />
                     </div>
                   </div>
                   <div>
@@ -1121,10 +1121,10 @@ function ContactPage() {
                 Contact Information
               </h3>
               {[
-                { icon: Mail, label: "Email", value: "hello@dasspass.com", href: "mailto:hello@dasspass.com" },
-                { icon: Phone, label: "Phone", value: "+254 700 000 000", href: "tel:+254700000000" },
+                { icon: Mail, label: "Email", value: "info@dasspass.com", href: "mailto:info@dasspass.com" },
+                { icon: Phone, label: "Phone", value: "+254 705 886 366", href: "tel:+254700000000" },
                 { icon: MapPin, label: "Location", value: "Nairobi, Kenya", href: null },
-                { icon: Linkedin, label: "LinkedIn", value: "DassPass", href: "https://linkedin.com" },
+                { icon: Linkedin, label: "LinkedIn", value: "DassPass", href: "https://www.linkedin.com/company/dasspass1/about/" },
               ].map((c) => (
                 <div key={c.label} className="flex items-start gap-4 p-4 bg-[#F8FAFC] rounded-xl border border-[rgba(26,29,111,0.08)]">
                   <div className="w-9 h-9 bg-[#F0FDF9] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -1238,8 +1238,8 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
             </p>
             <div className="space-y-2.5">
               <p className="text-sm text-slate-400" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>Nairobi, Kenya</p>
-              <a href="mailto:hello@dasspass.com" className="block text-sm text-slate-400 hover:text-white transition-colors" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>hello@dasspass.com</a>
-              <a href="https://linkedin.com" className="block text-sm text-slate-400 hover:text-white transition-colors" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>LinkedIn</a>
+              <a href="mailto:info@dasspass.com" className="block text-sm text-slate-400 hover:text-white transition-colors" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>info@dasspass.com</a>
+              <a href="https://www.linkedin.com/company/dasspass1/about/" className="block text-sm text-slate-400 hover:text-white transition-colors" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>LinkedIn</a>
             </div>
           </div>
         </div>
