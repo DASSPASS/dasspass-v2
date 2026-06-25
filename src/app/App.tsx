@@ -1215,7 +1215,7 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
               <Img
                 src={logoWordmark}
                 alt="DassPass"
-                className="h-20 w-auto object-contain brightness-0 invert"
+                className="h-40 w-auto object-contain brightness-0 invert"
               />
             </button>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
