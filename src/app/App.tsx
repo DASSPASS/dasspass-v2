@@ -791,7 +791,7 @@ const INDUSTRIES_DETAIL = [
     title: "Financial Services",
     icon: CreditCard,
     desc: "Banks, microfinance institutions, and payment service providers face mounting regulatory pressure to implement robust KYC and AML programs. DassPass helps financial institutions design verification frameworks that meet regulatory requirements while minimizing customer friction.",
-    needs: ["Customer KYC at onboarding", "Ongoing AML screening", "Business account verification", "Vendor due diligence"],
+    needs: ["Customer KYC at onboarding", "Ongoing AML screening", "Business account verification", "Vendor due diligence", "Transaction Monitoring"],
   },
   {
     tag: "02",
@@ -819,7 +819,7 @@ const INDUSTRIES_DETAIL = [
     title: "Fintech",
     icon: Layers,
     desc: "Fintechs must balance rapid customer acquisition with regulatory compliance. DassPass helps fintechs select and implement proportionate, scalable verification solutions that grow with their user base.",
-    needs: ["Digital identity verification", "Automated KYC workflows", "AML compliance programs", "Compliance framework design"],
+    needs: ["Digital identity verification", "Automated KYC workflows", "AML compliance programs", "Compliance framework design", "Transaction Monitoring"],
   },
   {
     tag: "06",
