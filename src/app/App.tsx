@@ -1221,11 +1221,16 @@ function Footer({ onNavigate }: { onNavigate: (p: Page) => void }) {
     className="h-20 w-auto object-contain"
   />
 </button>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-xs mt-1" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-              Building Trust Into Every Decision.
-              <br />
-              Trust infrastructure & compliance solutions for Africa.
-            </p>
+            <p
+  className="text-slate-400 text-sm leading-relaxed max-w-xs mt-0"
+  style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
+>
+  <span className="text-[#14B8A6]">
+    Building Trust Into Every Decision.
+  </span>
+  <br />
+  Trust infrastructure & compliance solutions for Africa.
+</p>
           </div>
           <div>
             <p className="text-xs font-bold tracking-widest uppercase text-slate-500 mb-4" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
